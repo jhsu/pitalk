@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cvlc 'v4l2:///dev/video0:chroma=mjpg' --v4l2-width=640 --v4l2-height=480 \
+  --input-slave=alsa://hw:2,0 --alsa-audio-channels=1 --volume=1024 \
+  --sout '#standard{access=http,mux=ogg,dst=:8888/stream.ogv}' --sout-http-mime=video/ogg
