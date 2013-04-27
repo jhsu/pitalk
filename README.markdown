@@ -25,3 +25,5 @@ directory as the `nginx.conf`.
 
 You may need to tweak `./bin/start_stream` settings for cvlc based on your
 webcam.
+
+This has only been tested on archlinux-arm.
