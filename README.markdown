@@ -5,6 +5,8 @@
 * webcam
 * microphone (preferably with a mute button)
 
+![in use](screenshot.png)
+
 ## Requirements
 
 * alsa
